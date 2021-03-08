@@ -35,10 +35,9 @@
         <script>
             var btt = document.getElementById("back-to-top"),
                 docElem = document.documentElement,
-                offset,
-                docHeight;
-
-            docHeight = Math.max(docElem.offsetHeight, docElem.scrollHeight)
+                docHeight = Math.max(docElem.offsetHeight, docElem.scrollHeight),
+                offset;
+            
             if(docHeight != 'undefined'){
                 offset = docHeight / 2
             }
